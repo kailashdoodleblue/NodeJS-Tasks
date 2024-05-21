@@ -1,0 +1,12 @@
+{
+  "name": "firstnodepgm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstnodepgm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node firstnodepgm.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
