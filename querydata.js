@@ -5,6 +5,6 @@ http.createServer (function(req,res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
     let querydata=url.parse(req.url,true).query;
     let data = querydata.name+querydata.age;
-    res.write(data);
-    res.end();
+    res.end(data);
+    // res.end();
 }).listen(8000);
